@@ -9,7 +9,7 @@ const db = require('./db');
 //add router to the Server
 const movieRouter = require('./routes/movie-router');
 const app = express()
-const apiPort = 3000
+const apiPort = 8000
 
 
 app.use(bodyParser.urlencoded({ extended: true }))
